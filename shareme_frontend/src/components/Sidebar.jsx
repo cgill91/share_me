@@ -12,8 +12,8 @@ const categories = [
     {name: 'Wallpapers'},
     {name: 'Photography'},
     {name: 'Gaming'},
-    {name: 'Coding'},
-]
+    {name: 'Programing'},
+];
 
 function Sidebar(user, closeToggle) {
     const handleCloseSidebar = () => {
@@ -54,6 +54,6 @@ function Sidebar(user, closeToggle) {
             </div>
         </div>
     );
-}
+};
 
 export default Sidebar
